@@ -139,6 +139,14 @@ body {
   height: 100px;
 }
 
+@media (max-width: 768px) {
+  .play-section .logo {
+    width: 60%;
+    height: auto;
+    margin: 0 auto 20px auto;
+    display: block;
+  }
+}
 .heading,
 .subheading {
   font-size: 1.5rem;
