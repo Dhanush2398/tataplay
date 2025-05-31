@@ -458,3 +458,77 @@ body {
   position: relative;
   top: 60px;
  }
+
+ .form-section {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.form-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: #220046;
+}
+
+.responsive-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #444;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.form-button {
+  background-color: #E10092;
+  color: white;
+  border: none;
+  padding: 14px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.form-button:hover {
+  background-color: #c00079;
+}
+
+/* Optional: Responsive tweaks */
+@media (max-width: 480px) {
+  .form-title {
+    font-size: 22px;
+  }
+
+  .form-button {
+    font-size: 14px;
+    padding: 12px;
+  }
+}
