@@ -1,3 +1,6 @@
+body {
+  font-family: 'VoltePlay', sans-serif;
+}
    .navbar {
       background-color: #220046;
     }
@@ -125,14 +128,15 @@
 
 
 .play-section {
-  background-color: #6600cc;
+  background-color: #6B00DD;
   color: #fff;
   padding: 60px 20px;
 }
 
 .play-section .logo {
-  width: 120px;
+  width: 30%;
   margin-bottom: 30px;
+  height: 100px;
 }
 
 .heading,
@@ -266,3 +270,181 @@
   color: #333;
   margin-top: 25px;
 }
+.offers-section {
+  background-color: #fff;
+  color: white;
+  font-family: 'VoltePlay-SemiBold', sans-serif;
+}
+
+.offer-card {
+  
+  border-radius: 10px;
+  padding: 25px;
+  color: #000;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.offer-card .title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.offer-card .subtitle {
+  font-style: italic;
+  color: #c30082;
+  margin-top: -5px;
+  font-size: 14px;
+}
+
+.offer-card .desc {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.offer-card .price {
+  font-size: 28px;
+  font-weight: bolder;
+  color: #220046;
+}
+
+.offer-card .features {
+  list-style: none;
+  padding-left: 0;
+  margin: 15px 0;
+}
+
+.offer-card .features li {
+  margin-bottom: 5px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.offer-card .features li::before {
+  content: '✔';
+  position: absolute;
+  left: 0;
+  color: green;
+}
+
+.offer-card .buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.offer-card .btn {
+  padding: 8px 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.offer-card .btn-primary {
+  background-color: #ec008c;
+  color: white;
+}
+
+.offer-card .btn-primary:hover {
+  background-color: #c30082;
+}
+
+.offer-card .btn-secondary {
+  background-color: #ffffff;
+  color: #ec008c;
+  border: 2px solid #ec008c;
+}
+
+.offer-card .btn-secondary:hover {
+  background-color: #ec008c;
+  color: white;
+}
+
+
+.hero-section {
+  background: #240044; 
+  padding: 60px 0;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: 'VoltePlay-SemiBold', sans-serif;
+}
+
+.hero-subtitle {
+  font-size: 28px;
+  margin-top: 10px;
+}
+
+.hero-subtitle .pink {
+  color: #ff2ca0;
+}
+
+.hero-price {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.hero-only-price {
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+.hero-info {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.hero-desc {
+  font-size: 16px;
+  margin-top: 20px;
+  color: #ddd;
+}
+
+.btn-group .btn {
+  margin-right: 15px;
+  padding: 10px 20px;
+  font-weight: 600;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.book-btn {
+  background-color: #ff2ca0;
+  color: #fff;
+}
+
+.callback-btn {
+  background-color: #e6007e;
+  color: #fff;
+}
+
+.hero-image {
+  max-width: 100%;
+}
+
+.hero-logo {
+  max-width: 220px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+ .boy-img{
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  top: 60px;
+ }
