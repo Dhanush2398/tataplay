@@ -670,3 +670,18 @@ body {
     gap: 30px;
   }
 }
+
+
+.popular-tag p a {
+	color: #E10092;
+	font-size: 13px;
+}
+
+.popular-tag p a:hover {
+	color: #E10092;
+}
+
+.popular-tag p {
+	font-size: 9px;
+	line-height: 22px;
+}
