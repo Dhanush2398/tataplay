@@ -759,7 +759,7 @@ body {
 }
 
 .tata-offers-section {
-  background: #fff7f9;
+  background: #240044;
   padding: 60px 20px;
   font-family: 'Poppins', sans-serif;
 }
@@ -812,3 +812,18 @@ body {
 .offer-details li {
   margin-bottom: 8px;
 }
+
+.tata-contact-btn {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  padding: 10px 0;
+  background-color: #E10092;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+
