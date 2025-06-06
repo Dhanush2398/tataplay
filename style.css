@@ -708,3 +708,107 @@ body {
   transform: translateY(-5px);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
 }
+
+.tata-benefit-strip {
+  background: linear-gradient(135deg, #ffecf1, #ffe6e9);
+  padding: 60px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.tata-title {
+  text-align: center;
+  color: #E10092;
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.tata-benefits-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.tata-benefit {
+  background: white;
+  border: 2px solid #E10092;
+  border-radius: 12px;
+  padding: 15px 20px;
+  width: 280px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  box-shadow: 0 4px 15px rgba(171, 12, 47, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.tata-benefit:hover {
+  transform: translateY(-5px);
+}
+
+.tata-benefit .icon {
+  font-size: 24px;
+}
+
+.tata-benefit p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+}
+
+.tata-offers-section {
+  background: #fff7f9;
+  padding: 60px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.tata-offer-heading {
+  text-align: center;
+  font-size: 28px;
+  color: #E10092;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+
+.tata-offers-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+
+.tata-offer-card {
+  background-color: #fff;
+  border: 2px solid #E10092;
+  border-radius: 12px;
+  padding: 25px 20px;
+  width: 300px;
+  box-shadow: 0 4px 12px rgba(171, 12, 47, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.tata-offer-card:hover {
+  transform: translateY(-5px);
+}
+
+.offer-title {
+  color: #E10092;
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.offer-details {
+  list-style: none;
+  padding: 0;
+  color: #333;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.offer-details li {
+  margin-bottom: 8px;
+}
