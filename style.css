@@ -857,3 +857,130 @@ body {
     transform: translateX(-100%);
   }
 }
+
+
+
+.airtel-popup {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99999;
+}
+
+
+.airtel-popup-box {
+  background: #fff;
+  padding: 25px 20px;
+  border-radius: 16px;
+  width: 90%;
+  max-width: 360px;
+  position: relative;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.25);
+  animation: fadeIn 0.3s ease;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+
+.popup-close {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: #240044;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+.popup-close:hover {
+  color: #6b03c6;
+}
+
+
+.popup-logo {
+  width: 70px;
+  margin: 0 auto 12px;
+  display: block;
+}
+
+
+.popup-divider {
+  width: 40%;
+  height: 2px;
+  background: #240044;
+  margin: 0 auto 16px;
+  border: none;
+  border-radius: 2px;
+}
+
+
+.popup-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #E10092;
+  margin-bottom: 10px;
+}
+
+
+.popup-text {
+  font-size: 20px !important;
+  color: #240044;
+  margin-bottom: 20px;
+}
+
+
+.popup-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+
+.popup-btn {
+  flex: 1 1 120px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: background 0.3s ease;
+}
+.call-btn {
+  background: #E10092;
+}
+.call-btn:hover {
+  background: #E10092;
+}
+.whatsapp-btn {
+  background: #25D366;
+}
+.whatsapp-btn:hover {
+  background: #1ebe54;
+}
+
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+
+@media (max-width: 400px) {
+  .popup-title {
+    font-size: 16px;
+  }
+  .popup-text {
+    font-size: 13px;
+  }
+}
+
