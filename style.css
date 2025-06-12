@@ -66,6 +66,8 @@ body {
       }
     }
 
+    
+
  #sidebarMenu {
   position: fixed;
   top: 0;
@@ -189,6 +191,7 @@ body {
   cursor: pointer;
   transition: 0.3s;
 }
+
 
 .secondary-btn:hover {
   background-color: #c0007a;
@@ -996,6 +999,112 @@ body {
   }
   .popup-text {
     font-size: 13px;
+  }
+}
+
+.tag-style-section {
+  padding: 80px 20px;
+  background: linear-gradient(to right, #f3f9ff, #ffffff);
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.tag-title {
+  font-size: 2.6rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+  color: #EC008C;
+}
+
+.tag-subtitle {
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 40px;
+}
+
+.tag-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.tag-box {
+  flex: 1 1 300px;
+  max-width: 320px;
+  min-height: 70px;
+  background: #ffffff;
+  color: #000;
+  border-radius: 14px;
+  padding: 18px 20px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.tag-box.success {
+  background: linear-gradient(135deg, #1ecb80, #14a36f);
+  color: #ffffff;
+  border-color: #14a36f;
+}
+
+.tag-box.error {
+  background: linear-gradient(135deg, #ff5e6c, #d41d42);
+  color: #ffffff;
+  border-color: #d41d42;
+}
+
+.tag-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 600px) {
+  .tag-box {
+    flex: 1 1 100%;
+    font-size: 1rem;
+    padding: 15px;
+  }
+
+  .tag-title {
+    font-size: 2rem;
+  }
+
+  .tag-subtitle {
+    font-size: 1rem;
+  }
+}
+
+
+.btn-custom {
+  padding: 10px 20px;
+  border-radius: 6px;
+  background-color: #eee;
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+
+@media (min-width: 992px) {
+  .whatsapp-btn {
+    background-color: #25D366 !important;
+    color: #fff !important;
+  }
+
+  .whatsapp-btn:hover {
+    background-color: #1ebe5d !important;
   }
 }
 
