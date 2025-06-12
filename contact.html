@@ -69,31 +69,31 @@
 </div>
 <div id="overlay"></div>
 
-<section id="contact" class="contact-section">
-  <div class="container">
-    <h2>Contact Us</h2>
-    
-    <div class="contact-wrapper">
-      <!-- Left: Form -->
-      <form class="contact-form">
-        <input type="text" placeholder="Your Name" required />
-        <input type="email" placeholder="Your Email" required />
-        <input type="tel" placeholder="Your Phone Number" required />
-        <textarea rows="5" placeholder="Your Message" required></textarea>
-        <button type="submit">
-          <i class="fas fa-paper-plane me-2"></i> Send Message
-        </button>
-      </form>
 
-      <!-- Right: Contact Info -->
-      <div class="contact-info">
-        <p><i class="fas fa-phone-alt me-2"></i> <a href="tel:+91919731647777">+91 919731 647777</a></p>
-        <p><i class="fab fa-whatsapp me-2"></i> <a href="https://wa.me/91919731647777" target="_blank">Chat on WhatsApp</a></p>
+<section class="form-section">
+  <div class="form-container">
+    <h2 class="form-title">Get in Touch</h2>
+    <form class="responsive-form" action="mail.php" method="POST">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
       </div>
-    </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="number" placeholder="Enter your phone number">
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Your message..." required></textarea>
+      </div>
+      <button type="submit" class="form-button">Submit</button>
+    </form>
   </div>
 </section>
-
 
 <a href="https://wa.me/919731647777" class="whatsapp-float" target="_blank">
   <img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="WhatsApp">
