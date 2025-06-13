@@ -1,6 +1,21 @@
 body {
   font-family: 'VoltePlay', sans-serif;
 }
+
+.offers-section,
+.hero-section,
+.container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  width: 100% !important;
+}
+
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
    .navbar {
       background-color: #220046;
     }
@@ -375,6 +390,7 @@ body {
 
 .hero-section {
   background: #240044; 
+  width: 100%;
 }
 
 .hero-title {
