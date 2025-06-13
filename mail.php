@@ -6,7 +6,7 @@ $message = $_POST['message'] ?? '';
 $number = $_POST['number'] ?? '';
 
 
-$to = ""; 
+$to = "tataplayhindi2025@gmail.com"; 
 
 
 $subject = "New contact from $name";
