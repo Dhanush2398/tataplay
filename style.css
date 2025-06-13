@@ -194,12 +194,11 @@ body {
 
 
 .secondary-btn:hover {
-  background-color: #c0007a;
+  background-color: #c0007a ;
 }
 
 @media (min-width: 768px) {
   .btn-group {
-    flex-direction: row;
     justify-content: center;
   }
 
@@ -208,6 +207,11 @@ body {
   }
 }
 
+@media (min-width: 768px) {
+  .btn-group :hover {
+  background-color: #c0007a ;
+}
+}
 
 .footer-info {
   background-color: #f5effc;
