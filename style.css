@@ -138,7 +138,6 @@ body {
 .play-section .logo {
   width: 30%;
   margin-bottom: 30px;
-  height: 100px;
 }
 
 @media (max-width: 768px) {
@@ -190,6 +189,7 @@ body {
   font-size: 1rem;
   cursor: pointer;
   transition: 0.3s;
+  margin-top: 10px;
 }
 
 
@@ -375,7 +375,6 @@ body {
 
 .hero-section {
   background: #240044; 
-  padding: 60px 0;
 }
 
 .hero-title {
