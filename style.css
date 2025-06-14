@@ -163,6 +163,39 @@ body {
     display: block;
   }
 }
+.play-section .hero-logo{
+ height: 80px;
+ margin-top: -70px;
+}
+.play-section {
+  background-color: #6B00DD;
+  color: #fff;
+  padding: 60px 20px;
+}
+
+.play-section .logo {
+  width: 50%;
+  max-width: 200px;
+  margin-bottom: 30px;
+}
+
+.boy-img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .play-section .logo {
+    width: 60%;
+    margin: 0 auto 20px;
+    display: block;
+  }
+
+  .heading, .subheading {
+    text-align: center;
+  }
+}
+
 .heading,
 .subheading {
   font-size: 1.5rem;
@@ -204,28 +237,16 @@ body {
   font-size: 1rem;
   cursor: pointer;
   transition: 0.3s;
-  margin-top: 10px;
 }
 
-
 .secondary-btn:hover {
-  background-color: #c0007a ;
+  background-color: #c0007a;
 }
 
 @media (min-width: 768px) {
-  .btn-group {
-    justify-content: center;
-  }
-
   .secondary-btn {
     min-width: 250px;
   }
-}
-
-@media (min-width: 768px) {
-  .btn-group :hover {
-  background-color: #c0007a ;
-}
 }
 
 .footer-info {
@@ -443,14 +464,25 @@ body {
 
 .book-btn {
   background-color: #ff2ca0;
+  width: 400px;
+  color: #fff;
+}
+.book-btn:hover {
+  background-color: #e6007e;
+  width: 400px;
   color: #fff;
 }
 
 .callback-btn {
   background-color: #e6007e;
+  width: 400px;
   color: #fff;
 }
-
+.callback-btn:hover {
+  background-color: #ff2ca0;
+  width: 400px;
+  color: #fff;
+}
 .hero-image {
   max-width: 100%;
 }
