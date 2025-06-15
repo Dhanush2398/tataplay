@@ -473,11 +473,20 @@ body {
   }
 }
 @media (max-width: 480px) {
+  .book-btn:hover  {
+    width: 90% !important; 
+  }
+}
+@media (max-width: 480px) {
   .callback-btn{
     width: 90% !important; 
   }
 }
-
+@media (max-width: 480px) {
+  .callback-btn:hover{
+    width: 90% !important; 
+  }
+}
 .book-btn:hover {
   background-color: #e6007e;
   width: 400px;
