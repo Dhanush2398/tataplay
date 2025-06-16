@@ -429,10 +429,16 @@ body {
   color: #ff2ca0;
 }
 
+ .pink {
+  color: #ff2ca0;
+}
+
+
 .hero-price {
   font-size: 24px;
   font-weight: 600;
   margin-top: 20px;
+  animation: zoomBlink 1.5s infinite;
 }
 
 .hero-only-price {
@@ -1207,4 +1213,9 @@ body {
 .popup-close{
   font-size: 14px;
   font-weight: 500;
+}
+
+.star img{
+  height: 200px;
+  animation: zoomBlink 1.5s infinite;
 }
